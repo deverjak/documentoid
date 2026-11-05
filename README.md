@@ -111,3 +111,7 @@ python -m venv .venv
 - [arc42](https://arc42.org/overview/) jako inspirace pro obsah architektonické dokumentace. Přibalené šablony jsou vlastní stručné šablony, nejsou kopií oficiální arc42 šablony.
 - [diagram-design](https://github.com/cathrynlavery/diagram-design) pro editorial diagramy.
 - [md-to-pdf](https://github.com/simonhaenisch/md-to-pdf), [Puppeteer](https://pptr.dev/) a [pdf.js](https://mozilla.github.io/pdf.js/) pro export a náhled PDF.
+
+## Licence
+
+Documentoid je pod licencí [MIT](LICENSE). Převzatý skill `diagram-design` má vlastní licenci MIT (Cathryn Lavery) a přibalené ikony a fonty licence uvedené v [`third-party/diagram-design/`](third-party/diagram-design/THIRD_PARTY_LICENSES.md).
