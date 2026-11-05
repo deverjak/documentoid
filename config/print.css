@@ -1,0 +1,27 @@
+:root { color-scheme: light; }
+body {
+  color: #172033;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+h1, h2, h3, h4 { color: #173a60; break-after: avoid; line-height: 1.2; }
+h1 { font-size: 26pt; margin: 0 0 8mm; }
+h2 { font-size: 17pt; margin: 8mm 0 3mm; }
+h3 { font-size: 13pt; margin: 5mm 0 2mm; }
+p, li { orphans: 3; widows: 3; }
+a { color: #185c90; text-decoration: none; }
+table { width: 100%; border-collapse: collapse; margin: 4mm 0; font-size: 9pt; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th, td { border: 1px solid #cbd5e1; padding: 2.5mm; vertical-align: top; }
+th { background: #eef3f8; text-align: left; }
+pre { background: #f4f6f8; padding: 3mm; border: 1px solid #e2e8f0; white-space: pre-wrap; }
+pre code { font-size: 8.5pt; }
+code { font-family: Consolas, "Courier New", monospace; font-size: 0.9em; }
+img, svg { max-width: 100%; height: auto; }
+figure, img { break-inside: avoid; }
+blockquote { margin-left: 0; padding-left: 4mm; border-left: 3px solid #8ca6bc; color: #475569; }
+.page-break { break-before: page; }
+@page { size: A4; }

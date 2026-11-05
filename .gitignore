@@ -1,0 +1,25 @@
+# Dependencies and local environments
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated output (PDF, SVG exports, previews)
+output/
+
+# Logs and caches
+*.log
+npm-debug.log*
+.cache/
+
+# Secrets and local agent settings
+.env
+.env.*
+.claude/settings.local.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

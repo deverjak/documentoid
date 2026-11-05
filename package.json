@@ -1,0 +1,27 @@
+{
+  "name": "documentoid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local documentation, PDF and architecture diagram toolchain",
+  "type": "module",
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "pdf": "node scripts/markdown-to-pdf.mjs",
+    "html:pdf": "node scripts/html-to-pdf.mjs",
+    "pdf:preview": "node scripts/pdf-preview.mjs",
+    "docs:measure": "node scripts/docs-measure.mjs",
+    "docs:links": "node scripts/docs-links.mjs",
+    "diagram:check": "python .agents/skills/diagram-design/scripts/self_check.py",
+    "diagram:svg": "python .agents/skills/diagram-design/scripts/export_svg.py",
+    "diagram-design:update": "node scripts/update-diagram-design.mjs",
+    "example": "node scripts/build-example.mjs",
+    "browser:install": "puppeteer browsers install chrome-headless-shell"
+  },
+  "devDependencies": {
+    "md-to-pdf": "5.2.5",
+    "pdfjs-dist": "6.4.299",
+    "puppeteer": "25.16.0"
+  }
+}
